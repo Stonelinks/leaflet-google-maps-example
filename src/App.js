@@ -1,8 +1,9 @@
 /*global google*/
 import React, { Component } from 'react';
-import './App.css';
-
+import GitHubForkRibbon from 'react-github-fork-ribbon';
 import L from 'leaflet';
+
+import './App.css';
 import 'leaflet/dist/leaflet.css'
 
 import './leaflet-google'
@@ -35,10 +36,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <GitHubForkRibbon href="https://github.com/Stonelinks/leaflet-google-maps-experiment"
+                    target="_blank"
+                    position="right">
+          Fork me on GitHub
+        </GitHubForkRibbon>
         <div className="App-header">
           <h2>Leaflet Google Maps Experiment</h2>
           <p className="App-intro">
-          How hard is it to host google maps inside of leaflet?
+          A google map hosted inside of a leaflet layer
           </p>
         </div>
         <div className="App-map" ref={(el) => this.mapEl = el}></div>
