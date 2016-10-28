@@ -2,7 +2,7 @@
 
 ### [Demo](https://stonelinks.github.io/leaflet-google-maps-experiment/)
 
-Just an experiment
+Example of google maps hosted inside of a leaflet map
 
 -----------------------
 

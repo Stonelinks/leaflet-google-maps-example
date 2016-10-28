@@ -44,7 +44,7 @@ class App extends Component {
         <div className="App-header">
           <h2>Leaflet Google Maps Experiment</h2>
           <p className="App-intro">
-          A google map hosted inside of a leaflet layer
+          Example of google maps hosted inside of a leaflet map
           </p>
         </div>
         <div className="App-map" ref={(el) => this.mapEl = el}></div>
