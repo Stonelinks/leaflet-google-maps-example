@@ -42,10 +42,7 @@ class App extends Component {
           Fork me on GitHub
         </GitHubForkRibbon>
         <div className="App-header">
-          <h2>Leaflet Google Maps Experiment</h2>
-          <p className="App-intro">
-          Example of google maps hosted inside of a leaflet map
-          </p>
+          <b>Leaflet Google Maps Experiment</b>
         </div>
         <div className="App-map" ref={(el) => this.mapEl = el}></div>
       </div>
